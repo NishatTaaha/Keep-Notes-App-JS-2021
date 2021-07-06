@@ -28,6 +28,7 @@ addTxt.addEventListener("keypress",function(event){
     }
 });
 
+
 function showNotes()
 {
     let notes = localStorage.getItem('notes');
@@ -101,6 +102,9 @@ search.addEventListener('input',function(){
     });
 
 })
+
+
+
 
 
 
