@@ -1,5 +1,6 @@
 showNotes();
 
+// button click
 let addBtn = document.getElementById('addBtn');
 addBtn.addEventListener('click', function (e)
 {
@@ -29,6 +30,7 @@ addTxt.addEventListener("keypress",function(event){
 });
 
 
+// showing notes
 function showNotes()
 {
     let notes = localStorage.getItem('notes');
@@ -66,6 +68,7 @@ function showNotes()
 
 
 
+// deleting notes
 function deleteNote(index){
     console.log('delete',index);
 
@@ -86,6 +89,7 @@ function deleteNote(index){
 
 
 
+// search in search input
 let search= document.getElementById('searchTxt');
 search.addEventListener('input',function(){
     let inputVal= search.value.toLowerCase();
@@ -102,6 +106,9 @@ search.addEventListener('input',function(){
     });
 
 })
+
+
+
 
 
 
