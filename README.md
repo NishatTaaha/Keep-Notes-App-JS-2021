@@ -1,2 +1,2 @@
-# Keep-Notes-App-JS-2021
+# Keep-Notes-JS-2021
 Javascript
